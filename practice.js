@@ -1,4 +1,4 @@
-Conditional Statements //
+//Conditional Statements //
 var weather = function(temperature){
   console.log("The temperature outside is", temperature, "degrees farenheight.");
   
@@ -67,17 +67,17 @@ while (i<= 10) {
     continue;
   }
   console.log(i)
-   i++ ;
+  i++ ;
 }
 
 // Max of 2 numbers //
 
-let number = Max(2,3);
-console.log(number);
+// let number = Max(2,3);
+// console.log(number);
 
-function Max(a,b) {
-  if (a > b)
-    return a;
-  else
-    return b;
-}
+// function Max(a,b) {
+//   if (a > b)
+//     return a;
+//   else
+//     return b;
+// }
