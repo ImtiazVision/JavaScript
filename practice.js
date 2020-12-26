@@ -1,4 +1,4 @@
-// Conditional Statements //
+Conditional Statements //
 var weather = function(temperature){
   console.log("The temperature outside is", temperature, "degrees farenheight.");
   
@@ -30,4 +30,54 @@ while(num <= 10) {
 
 for (var i = 0; i <= 10; i++){
   console.log(i)
+}
+
+// for .. in loop | It is used to iterate over properties of an object //
+
+const individual = {
+  name: 'Imtiaz',
+  age: 23
+};
+
+for (let key in individual) {
+  console.log(key, individual[key])
+};
+
+const colors = ['red', 'green', 'orange'];
+
+for (let index in colors) {
+  console.log(index, colors[index])
+};
+
+// for-of loop | It is used to iterate over elements/items of a/an list/array //
+
+const colors = ['red', 'green', 'orange'];
+
+for (let color of colors) {
+  console.log(color)
+}
+
+// Break and Continue // 
+
+let i = 0;
+while (i<= 10) {
+  if (i === 5) break;
+  if (i % 2 === 0){
+    i++;
+    continue;
+  }
+  console.log(i)
+   i++ ;
+}
+
+// Max of 2 numbers //
+
+let number = Max(2,3);
+console.log(number);
+
+function Max(a,b) {
+  if (a > b)
+    return a;
+  else
+    return b;
 }
