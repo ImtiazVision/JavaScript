@@ -10,7 +10,8 @@ console.log(result);
 let getScoreText = function(name = 'Anonymous', score = 0) {
     // console.log(name)
     // console.log(score)
-    return 'Name: ' + name + ' | Score: ' + score
+    // return 'Name: ' + name + ' | Score: ' + score
+    return `Name: ${name} | Score: ${score}`
 }
 let scoreTest = getScoreText(undefined, 40)
 console.log(scoreTest)
