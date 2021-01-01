@@ -14,3 +14,13 @@ let getScoreText = function(name = 'Anonymous', score = 0) {
 }
 let scoreTest = getScoreText(undefined, 40)
 console.log(scoreTest)
+
+// Exercise
+// create a function that takes in 2 parameters and one of these parameters has a default value (e.g. total and tipPercent = .2)
+
+let tipcalculator = function(total, tipPercent = .2) {
+    return total + total * tipPercent
+}
+
+let totalBill = tipcalculator(100);
+console.log(totalBill);
