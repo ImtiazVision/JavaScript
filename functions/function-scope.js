@@ -1,7 +1,13 @@
 // Global scope (fahrenheitToCelcius, temp1, temp2)
+    // Local scope (fahrenheit, celcius)
+      // Local scope (isFreezing)
 let fahrenheitToCelcius = function(fahrenheit) {
     //let fahrenheit = num;
     let celcius = (fahrenheit - 32) * 5/9;
+
+    if (celcius <= 0) {
+      let isFreezing = true
+    }
     return celcius
 }
 
