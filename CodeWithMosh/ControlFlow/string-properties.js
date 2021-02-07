@@ -11,6 +11,6 @@ showProperties(movie)
 
 function showProperties(obj) {
     for (let key in obj)
-        console.log(key)
+        console.log(key);
 
 }
