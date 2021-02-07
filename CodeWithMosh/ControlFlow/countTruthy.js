@@ -5,7 +5,9 @@ if (name2) console.log('Hello')
 if (name1) console.log('Imtiaz')
 if (isActive) console.log('Active')
 
+const array = [0, null, undefined, 1, 2, 3];
 
+console.log(countTruthy(array));
 
 
 
